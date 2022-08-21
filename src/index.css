@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+.card{
+    background: rgba(231, 238, 244, 0.39) 0% 0% no-repeat padding-box;
+    border-radius: 12pt;
+    padding: 0.5rem 1rem;
+    width: 100%;
+
+}
+.card .card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card > *{
+    /* padding: 0.5rem; */
+    margin: 0.5rem;
+}
+.card h1{
+    text-align: left;
+    font-family:Poppins;
+    letter-spacing: 0pt;
+    color: #575757;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 1;
+} 
+ .card .card-header img{
+    width: 15pt;
+    height: 15pt;
+} 
+ .card button{
+    background: #D7D8E0 0% 0% no-repeat padding-box;
+    border-radius: 5pt;
+    opacity: 1;
+    padding: 1rem 0.5rem;
+}
+.card .card-body input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #0000001A;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    margin: 9px;
+    padding: 15px 20px;
+    opacity: 1;
+    outline: none;
+    width: 40%;
+}
+.card .card-body input:focus{
+    outline: none;
+}
+input{
+    font-family: poppins,sans-serif;
+}
+.card .card-body input::placeholder{
+    font-family: poppins, sans-serif;
+    letter-spacing: 0.39px;
+    color: #ACACAC;
+}
+.btn{
+    background: #D7D8E0 0% 0% no-repeat padding-box;
+    border-radius: 5pt;
+    font-family: Poppins;
+    letter-spacing: 0pt;
+    color: #2E2E2E;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem !important;
+}
+.grp1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
