@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sainugen-assignment/static/css/main.446658ed.css",
+    "main.js": "/sainugen-assignment/static/js/main.e581eb39.js",
+    "index.html": "/sainugen-assignment/index.html",
+    "main.446658ed.css.map": "/sainugen-assignment/static/css/main.446658ed.css.map",
+    "main.e581eb39.js.map": "/sainugen-assignment/static/js/main.e581eb39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446658ed.css",
+    "static/js/main.e581eb39.js"
+  ]
+}
